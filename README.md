@@ -1,6 +1,6 @@
 # TeamKappa-theme
 
-![Preview](http://i.imgur.com/Je9BLcp.jpg)
+![Preview](https://i.imgur.com/q06ZUkK.jpg)
 
 **^^^ This is how the theme looks ^^^**
 
