@@ -4,6 +4,9 @@
 
 **^^^ This is how the theme looks ^^^**
 
+##Importan##
+The theme was broken with the last discord update (channels menu no longer transparent) I'll fix this as soon as I can, not at home atm.
+
 ##Discord for this theme##
 **[Join Now](https://discord.gg/0yE9HoBlpr8dRdhe)**
 
