@@ -1,37 +1,82 @@
-//META{"name":"ClearDiscord_Theme","description":"A nice and clean theme","author":"Dddsasul","version":"1.0"}*//
+//META{"name":"ClearDiscord_Theme","description":"A nice and clean theme","author":"Dddsasul","version":"1.2"}*//
 
 body {
     background: url(https://i.imgur.com/uTVZzkC.jpg) !important;
     background-size:cover !important;
 }
-.divider > span {
+.guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header, header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre {
     background: none !important;
 }
-.divider > div {
-    height: 2px !important;
+.friends-row:hover, .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, .selected:not(.tab-bar-item), .channel:hover, .member:hover, .is-local-bot-message, .channel-textarea-inner, .guild-inner, .callout-backdrop, .markup code.inline, .markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller.guilds > .guild:hover, .roles > .scroller-wrap.fade > .scroller > ul > li:hover {
+    background: rgba(0, 88, 117, .4) !important;
 }
-li.selected, span >div.selected, section > div > div > div > div > div.selected, .friends-row:hover, li.channel-text:hover, div.channel.private:hover, .btn-friends:hover, .messages .markup pre code.hljs, .member:hover {
-    background: rgba(60, 60, 60, .2) !important;
+.divider > span, .divider > div, .unread::before, .selected::before, .guild-inner:hover, .tooltip, .settings-header, .btn-primary, .tab-bar-item.selected:before, .btn.btn-primary, .user-popout > header, #user-profile-modal > header, .new-messages-bar, #user-profile-modal > footer, .region-select:hover > button {
+    background: rgb(0, 88, 117) !important;
+    color: white !important;
 }
-.messages .markup code.inline {
-    background: rgba(60, 60, 60, .4) !important;
+.markup pre {
+    border-color: rgb(0, 88, 117) !important;
 }
-.title-wrap, .messages-wrapper, .flex-spacer, .channel-members, .channels-wrap, .scroller, .account, .links, .guilds-wrapper, .btn-settings, .btn-deafen, .btn-mute, .btn-info, .btn-disconnect, .typing, .private-channels, .search-bar, .friends-header, .friends-table, .messages .markup pre, #friends, #voice-connection, header {
-    background: none !important;
+.settings-inner, #settings-username, #settings-email, #settings-current-password, .settings-actions, .user-popout > .footer, .scroller-wrap.fade > .scroller.guilds, .note > textarea:focus, .tab-bar-container, .empty, .control-group > input, .guild-settings-modal-members, .form-header, .form-inner, .form-actions {
+    background: rgb(0, 147, 196) !important;
+}
+.divider-red::before, .divider-red > span {
+    background: rgb(201, 60, 60) !important;
+}
+.webhook.editing, .webhook-header {
+    background: rgb(100, 160, 200) !important;
+}
+#settings-username, #settings-email, #settings-current-password, .settings-actions, .control-group > label, .control-group > input {
+    border: none !important;
+    color: white !important;
+}
+.control-group > label > a, .help-text > a, .control-group > div > p > a, .tip > a, .region-select > button, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations > p > a, .permissions-helpdesk, .disabled-for-everyone, .remove-button {
+    color: rgb(0, 88, 117) !important;
+}
+.highlight {
+    color: rgb(0, 147, 196) !important;
+}
+.control-group > label > a:hover, .tab-bar-item, .user-settings-modal-accounts-list > h3, .user-settings-modal-accounts-list-description-inner, .checkbox, .help-text, .radio, .control-group > div > p, .user-settings-streamer-mode-enable-inner > label, .tip, .section-header, .note > textarea::-webkit-input-placeholder, .note > textarea, .connected-account-name > a, .empty-text, .region-select-name, .criteria, .btn-default, .instant-invites-header, .instant-invite, .show-channel > div, .countdown, .guild-settings-modal-integrations-header, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations > p, h6, .search-bar-inner > input, .search-bar-inner > input::-webkit-input-placeholder, .member-buttons > button:not(.btn-danger), h1, .form-header > header, .guild-settings-modal-emoji-header.settings-panel-header > div > p, .table-header, .emoji-uploader-username, .webhook-details > div, .member, .permission-actions, .form-inner > p {
+    color: white !important;
+}
+.tab-bar.UNIQUE > .tab-bar-item.selected {
+    color: black !important;
+}
+.tab-bar-item.selected {
+    border-color: rgb(0, 88, 117) !important;
+}
+.tooltip-right:after {
+    border-right-color: rgb(0, 88, 117) !important;
+}
+.tooltip-left:after {
+    border-left-color: rgb(0, 88, 117) !important;
+}
+.tooltip-top:after {
+    border-top-color: rgb(0, 88, 117) !important;
+}
+.tooltip-bottom:after {
+    border-bottom-color: rgb(0, 88, 117) !important;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-	border:3px solid rgba(255,255,255,0) !important;
-	background-color:rgba(0,0,0,0.7) !important;
+	border:3px solid rgba(255, 255, 255, 0) !important;
+	background-color:rgba(0, 88, 117, 0.7) !important;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-	border:3px solid rgba(255,255,255,0) !important;
-	background-color:rgba(0,0,0,0.3) !important;
+	border:3px solid rgba(255, 255, 255, 0) !important;
+	background-color:rgba(0, 88, 117, 0.3) !important;
 }
-.guild-header ul {
-    -webkit-transform: translate3d(0, -140%, 0) !important;
-    transform: translate3d(0, -140%, 0) !important;
-  }
-.guild-header.guild-header-open ul {
-    -webkit-transform: translate3d(0, 0, 0) !important;
-    transform: translate3d(0, 0, 0) !important;
-  }
+.message-group.is-local-bot-message {
+    box-shadow: -20px -1px 0px rgb(0, 88, 117), 10px -1px 0px rgb(0, 88, 117) !important;
+}
+.icon-logout {
+   filter: brightness(200%) !important;
+}
+.preview-sound {
+    filter: brightness(200%) !important;
+}
+.icon-delete {
+    filter: brightness(200%) !important;
+}
+.create-role-button {
+    filter: brightness(200%) !important;
+}
