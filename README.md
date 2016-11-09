@@ -1,6 +1,6 @@
 # ClearDiscord
 
-![Preview](https://i.imgur.com/q06ZUkK.jpg)
+![Preview](https://i.gyazo.com/93d9b1362c33e5642f9f91c7cab9c80a.jpg)
 
 **^^^ This is how the theme looks ^^^**
 
