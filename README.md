@@ -23,5 +23,5 @@ You can open the file with notepad and change the image link in the body tag.
 
 ##Downloads##
 
-[**Version 1**](https://github.com/Dddsasul/TeamKappa-theme/blob/master/JustBlack.theme.css)
+[**Version 1**](https://betterdiscord.net/ghdl?id=493)
 
