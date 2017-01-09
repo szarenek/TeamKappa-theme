@@ -20,6 +20,7 @@ You can open the file with notepad and change the image link in the body tag.
 **^^^ This is how the theme looks ^^^**
 
 **The theme was made for a friend, so I'll only update it if he wants something changed.**
+
 Now the guild list fades out. To see it you must hover your mouse over it.
 If you don't want this feature you can delete the first section of the theme between the comments /* ... */ -> /* end */
 
