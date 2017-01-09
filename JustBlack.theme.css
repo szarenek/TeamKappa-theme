@@ -1,5 +1,15 @@
 //META{"name":"JustBlack_Theme","description":"A nice and black theme","author":"Dddsasul","version":"1"}*//
 
+/* Remove this if you don't want the guilds fading */
+.guilds-wrapper {
+    opacity: 0 !important;
+    transition: 0.4s !important;
+}
+.guilds-wrapper:hover {
+    opacity: 1 !important;
+}
+/* ends here */
+
 .guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header, header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #voice-connection, .guild-settings-modal-members, .tab-bar-container, #user-profile-modal > header:after, .scroller-wrap.fade > .scroller.guilds, .user-popout > header, .user-popout > .footer, .markdown-modal.change-log, .markdown-modal-footer, .popout-menu-item, .settings-inner, .settings-actions, .authed-app, .form > .form-header, .form > .form-inner, .form > .form-actions, #autocomplete-popout, #autocomplete-popout > section > .scroller-wrap > .scroller, .option.search-query, .modal-content.form.need-help-modal > .footer, .emoji-picker, .option-popout, #voice-connection-popout > header, .context-menu {
     background: black !important;
 }
