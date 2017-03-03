@@ -32,7 +32,7 @@ body {
 .option.search-query, .option-popout, #channel-topicm, #bd-customcss-attach-controls {
     border: none !important
 }
-.scroller-wrap.fade > .scroller.guilds, .user-popout > header, .user-popout > .footer, .markdown-modal.change-log, .markdown-modal-footer, .popout-menu-item, .settings-inner, .settings-actions, .authed-app, .form > .form-header, .form > .form-inner, .form > .form-actions, #autocomplete-popout, #autocomplete-popout > section > .scroller-wrap > .scroller, .option.search-query, .modal-content.form.need-help-modal > .footer, .emoji-picker, .option-popout, #voice-connection-popout > header, .context-menu, .empty, .markdown-modal.selectable, .incoming-call-inner, .private-channel-call {
+.scroller-wrap.fade > .scroller.guilds, .user-popout > header, .user-popout > .footer, .markdown-modal.change-log, .markdown-modal-footer, .popout-menu-item, .settings-inner, .settings-actions, .authed-app, .form > .form-header, .form > .form-inner, .form > .form-actions, #autocomplete-popout, #autocomplete-popout > section > .scroller-wrap > .scroller, .option.search-query, .modal-content.form.need-help-modal > .footer, .emoji-picker, .option-popout, #voice-connection-popout > header, .context-menu, .empty, .markdown-modal.selectable, .incoming-call-inner, .private-channel-call, .region-select-modal {
     background: -webkit-linear-gradient(left, rgb(0, 88, 117), rgb(0, 147, 196)) !important;
 }
 #user-profile-modal > header:after {
@@ -41,7 +41,7 @@ body {
 .tab-bar-container {
     background:  -webkit-linear-gradient(left, rgb(0, 69, 92), rgb(0, 114, 150)) !important;
 }
-#settings-username, #settings-email, #settings-current-password, #nickname, #removal-code, #settings-name, #autocomplete-popout > section > .scroller-wrap > .scroller > .row.selected, #channel-name, #channel-topic, .note > textarea:focus, .item:hover, .scroller-wrap.fade > .scroller > ul > li:hover {
+#settings-username, #settings-email, #settings-current-password, #nickname, #removal-code, #settings-name, #autocomplete-popout > section > .scroller-wrap > .scroller > .row.selected, #channel-name, #channel-topic, .note > textarea:focus, .item:hover, .scroller-wrap.fade > .scroller > ul > li:hover, .region-select-modal-option {
     background: -webkit-linear-gradient(left, rgba(0, 147, 196, .1), rgba(255, 255, 255, .1)) !important;
 }
 .item.item-subMenu {
@@ -60,17 +60,17 @@ body {
     border: none !important;
     color: white !important;
 }
-.control-group > label > a, .help-text > a, .control-group > div > p > a, .tip > a, .region-select > button, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations > p > a, .permissions-helpdesk, .disabled-for-everyone, .remove-button, .help-text > strong > a, .guild-settings-modal-members-footer.settings-panel-header > a, .empty > h4 {
+.control-group > label > a, .help-text > a, .control-group > div > p > a, .tip > a, .region-select > button, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations > p > a, .permissions-helpdesk, .disabled-for-everyone, .remove-button, .help-text > strong > a, .guild-settings-modal-members-footer.settings-panel-header > a, .empty > h4, .region-select-modal-header, .no-emoji > p {
     color: rgb(0, 192, 192) !important;
     font-weight: bold !important;
 }
 .highlight {
     color: rgb(0, 147, 196) !important;
 }
-.control-group > label > a:hover, .tab-bar-item, h3, .user-settings-modal-accounts-list-description-inner, .checkbox, .help-text, .radio, .control-group > div > p, .user-settings-streamer-mode-enable-inner > label, .tip, .section-header, .note > textarea::-webkit-input-placeholder, .note > textarea, .connected-account-name > a, .empty-text, .region-select-name, .criteria, .btn-default, .instant-invites-header, .instant-invite, .show-channel > div, .countdown, .guild-settings-modal-integrations-header, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations > p, h6, .search-bar-inner > input, .search-bar-inner > input::-webkit-input-placeholder, .member-buttons > button:not(.btn-danger), h1, .form-header > header, .guild-settings-modal-emoji-header.settings-panel-header > div > p, .table-header, .emoji-uploader-username, .webhook-details > div, .member, .permission-actions, .form-inner > p, .discord-tag > .username, .discord-tag > .discriminator, .markdown-modal.change-log, .markdown-modal-header, .markdown-modal.change-log > .scroller-wrap.fade > .scroller > ul > li, .markdown-modal-footer, .popout-menu-item, .title, .subtitle, label, .flex-horizontal.reset-container > a, .app-name, .description > .header, .description > .body, .permissions > .header, .permissions > .body, .blurb, .expire-text, .search-for, .search-for > strong, .btn-item, .guild-name, .guild-nick, .row > a > span, .section, .empty > p, .connected-account-name, .activity, .item, .control-group > div, .bda-name, .scroller.bda-description, .bda-right > .checkbox:before {
+.control-group > label > a:hover, .tab-bar-item, h3, .user-settings-modal-accounts-list-description-inner, .checkbox, .help-text, .radio, .control-group > div > p, .user-settings-streamer-mode-enable-inner > label, .tip, .section-header, .note > textarea::-webkit-input-placeholder, .note > textarea, .connected-account-name > a, .empty-text, .region-select-name, .criteria, .btn-default, .instant-invites-header, .instant-invite, .show-channel > div, .countdown, .guild-settings-modal-integrations-header, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations > p, h6, .search-bar-inner > input, .search-bar-inner > input::-webkit-input-placeholder, .member-buttons > button:not(.btn-danger), h1, .form-header > header, .guild-settings-modal-emoji-header.settings-panel-header > div > p, .table-header, .emoji-uploader-username, .webhook-details > div, .member, .permission-actions, .form-inner > p, .discord-tag > .username, .discord-tag > .discriminator, .markdown-modal.change-log, .markdown-modal-header, .markdown-modal.change-log > .scroller-wrap.fade > .scroller > ul > li, .markdown-modal-footer, .popout-menu-item, .title, .subtitle, label, .flex-horizontal.reset-container > a, .app-name, .description > .header, .description > .body, .permissions > .header, .permissions > .body, .blurb, .expire-text, .search-for, .search-for > strong, .btn-item, .guild-name, .guild-nick, .row > a > span, .section, .empty > p, .connected-account-name, .activity, .item, .control-group > div, .bda-name, .scroller.bda-description, .bda-right > .checkbox:before, .region-select-modal-footer, #settings-name, .member-username, #nickname, #channel-name, #channel-topic {
     color: white !important;
 }
-.tab-bar.UNIQUE > .tab-bar-item.selected, .note > textarea, .note > textarea::-webkit-input-placeholder, .link-container.control-group > input, .control-group > input, .control-group > input::-webkit-input-placeholder {
+.tab-bar.UNIQUE > .tab-bar-item.selected, .section.notes > .note > textarea, .section.notes > .note > textarea::-webkit-input-placeholder, .link-container.control-group > input, .control-group > input, .control-group > input::-webkit-input-placeholder {
     color: black !important;
 }
 .tab-bar-item.selected {
