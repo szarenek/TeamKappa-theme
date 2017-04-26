@@ -1,10 +1,8 @@
 //META{"name":"ClearDiscord_Theme","description":"A nice and clean theme","author":"Dddsasul","version":"1.4.1"}*//
 
-/* fix for incoming update from canary */
-.layers {
-    background: transparent !important;
+.layers, .layer {
+    background: none !important;
 }
-/* <================================> */
 
 body {
     background: url(https://i.imgur.com/uTVZzkC.jpg) !important;
