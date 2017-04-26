@@ -1,10 +1,8 @@
 //META{"name":"JustBlack_Theme","description":"A nice and black theme","author":"Dddsasul","version":"1.2.1"}*//
 
-/* fix for incoming update from canary */
-.layers {
-    background: transparent !important;
+.layers, .layer {
+    background: none !important;
 }
-/* <================================> */
 
 /* Remove this if you don't want the guilds fading */
 .guilds-wrapper {
