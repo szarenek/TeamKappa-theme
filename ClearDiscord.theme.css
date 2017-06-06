@@ -1,17 +1,22 @@
-//META{"name":"ClearDiscord_Theme","description":"A nice and clean theme","author":"Dddsasul","version":"1.4.2"}*//
+//META{"name":"ClearDiscord_Theme","description":"A nice and clean theme","author":"Dddsasul","version":"1.4.3"}*//
 
 .layers, .layer {
     background: none !important;
+} 
+.ui-scroller-wrap.ui-scroller-light.ui-scroller-themed.ui-scroller-fade.ui-scroller-track > .scroller {
+    background: -webkit-linear-gradient(left, rgb(0, 88, 117), rgb(0, 147, 196)) !important;
 }
-
+.ui-scroller-wrap.ui-scroller-light.ui-scroller-themed.ui-scroller-fade.ui-scroller-track > .scroller > .row.selected {
+    background: -webkit-linear-gradient(left, rgba(0, 147, 196, .1), rgba(255, 255, 255, .1)) !important;
+}
 body {
     background: url(https://i.imgur.com/uTVZzkC.jpg) !important;
     background-size: cover !important;
 }
-.guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header > header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #voice-connection, .guild-settings-modal-members, .note > textarea, .bda-slist > li, #bd-customcss-attach-controls {
+.guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header > header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #rtc-connection, .guild-settings-modal-members, .note > textarea, .bda-slist > li, #bd-customcss-attach-controls, .flex-lFgbSz.vertical-3Oqtzo.flex-lFgbSz.directionColumn-2TfeX4.justifyStart-2rgM02.alignStretch-rC292i.noWrap-2wnwHP.container-RYiLUQ {
     background: none !important;
 }
-.friends-row:hover, .friends-header > .tab-bar > .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, .channel-text.selected, .is-local-bot-message, .channel-textarea-inner, .callout-backdrop, .markup code.inline, .markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller.guilds > .guild:hover, .roles > .scroller-wrap.fade > .scroller > ul > li:hover, .scroller > ul > li.selected, .scroller.channel-members > .member:hover, .scroller.guild-channels > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel.selected, #autocomplete-popout > section > .scroller-wrap > .scroller, .scroller-wrap > .scroller > .search-result.selected, .scroller-wrap > .scroller > .search-result:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild > div > .guild-inner, .member.member-status.member-status-online.popout-open, .jump-to-present-bar {
+.friends-row:hover, .friends-header > .tab-bar > .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, .channel-text.selected, .is-local-bot-message, .channel-textarea-inner, .callout-backdrop, .markup code.inline, .markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller.guilds > .guild:hover, .roles > .scroller-wrap.fade > .scroller > ul > li:hover, .scroller > ul > li.selected, .scroller.channel-members > .member:hover, .scroller.guild-channels > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel.selected, #autocomplete-popout > section > .scroller-wrap > .scroller, .scroller-wrap > .scroller > .search-result.selected, .scroller-wrap > .scroller > .search-result:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild > div > .guild-inner, .member.member-status.member-status-online.popout-open, .jump-to-present-bar, .containerDefault-7RImuF:hover, .wrapperSelectedText-31jJa8.wrapper-fDmxzK {
     background: rgba(0, 88, 117, .4) !important;
 }
 .divider > span, .divider > div, .unread::before, .selected::before, .tooltip, .settings-header, .btn-primary, .tab-bar-item.selected:before, .btn.btn-primary, #user-profile-modal > header, .new-messages-bar, #user-profile-modal > footer, .region-select:hover > button, .popout-menu-item:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild.selected > div > .guild-inner {
@@ -33,7 +38,7 @@ body {
 .ui-button.outlined.grey.medium.grow {
     border: 1px solid white !important;
 }
-.scroller-wrap.fade > .scroller.guilds, .user-popout > header, .user-popout > .footer, .markdown-modal.change-log, .markdown-modal-footer, .popout-menu-item, .settings-inner, .settings-actions, .authed-app, .form > .form-header, .form > .form-inner, .form > .form-actions, #autocomplete-popout, #autocomplete-popout > section > .scroller-wrap > .scroller, .option.search-query, .modal-content.form.need-help-modal > .footer, .emoji-picker, .option-popout, #voice-connection-popout > header, .context-menu, .empty, .markdown-modal.selectable, .incoming-call-inner, .private-channel-call, .region-select-modal {
+.scroller-wrap.fade > .scroller.guilds, .user-popout > header, .user-popout > .footer, .markdown-modal.change-log, .markdown-modal-footer, .popout-menu-item, .settings-inner, .settings-actions, .authed-app, .form > .form-header, .form > .form-inner, .form > .form-actions, #autocomplete-popout, #autocomplete-popout > section > .scroller-wrap > .scroller, .option.search-query, .modal-content.form.need-help-modal > .footer, .emoji-picker, .option-popout, #voice-connection-popout > header, .context-menu, .empty, .markdown-modal.selectable, .incoming-call-inner, .private-channel-call, .region-select-modal, .ui-video-background {
     background: -webkit-linear-gradient(left, rgb(0, 88, 117), rgb(0, 147, 196)) !important;
 }
 #user-profile-modal > header:after {
