@@ -13,10 +13,10 @@ body {
     background: url(https://i.imgur.com/uTVZzkC.jpg) !important;
     background-size: cover !important;
 }
-.guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header > header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #rtc-connection, .guild-settings-modal-members, .note > textarea, .bda-slist > li, #bd-customcss-attach-controls, .flex-lFgbSz.vertical-3Oqtzo.flex-lFgbSz.directionColumn-2TfeX4.justifyStart-2rgM02.alignStretch-rC292i.noWrap-2wnwHP.container-RYiLUQ {
+.guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header > header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #rtc-connection, .guild-settings-modal-members, .note > textarea, .bda-slist > li, #bd-customcss-attach-controls, .flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.container-RYiLUQ, .scrollerWrap-2uBjct.scrollerThemed-19vinI.themeGhost-10fio9.scrollerFade-28dRsO, .scroller-fzNley.channel-members {
     background: none !important;
 }
-.friends-row:hover, .friends-header > .tab-bar > .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, .channel-text.selected, .is-local-bot-message, .channel-textarea-inner, .callout-backdrop, .markup code.inline, .markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller.guilds > .guild:hover, .roles > .scroller-wrap.fade > .scroller > ul > li:hover, .scroller > ul > li.selected, .scroller.channel-members > .member:hover, .scroller.guild-channels > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel.selected, #autocomplete-popout > section > .scroller-wrap > .scroller, .scroller-wrap > .scroller > .search-result.selected, .scroller-wrap > .scroller > .search-result:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild > div > .guild-inner, .member.member-status.member-status-online.popout-open, .jump-to-present-bar, .containerDefault-7RImuF:hover, .wrapperSelectedText-31jJa8.wrapper-fDmxzK {
+.friends-row:hover, .friends-header > .tab-bar > .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, .channel-text.selected, .is-local-bot-message, .channel-textarea-inner, .callout-backdrop, .markup code.inline, .markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller.guilds > .guild:hover, .roles > .scroller-wrap.fade > .scroller > ul > li:hover, .scroller > ul > li.selected, .scroller.channel-members > .member:hover, .scroller.guild-channels > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel.selected, #autocomplete-popout > section > .scroller-wrap > .scroller, .scroller-wrap > .scroller > .search-result.selected, .scroller-wrap > .scroller > .search-result:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild > div > .guild-inner, .member.member-status.member-status-online.popout-open, .jump-to-present-bar, .contentSelectedText-3j5CXt.content-2mSKOj, .member.member-status:hover, .contentHoveredText-2HYGIY.content-2mSKOj {
     background: rgba(0, 88, 117, .4) !important;
 }
 .divider > span, .divider > div, .unread::before, .selected::before, .tooltip, .settings-header, .btn-primary, .tab-bar-item.selected:before, .btn.btn-primary, #user-profile-modal > header, .new-messages-bar, #user-profile-modal > footer, .region-select:hover > button, .popout-menu-item:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild.selected > div > .guild-inner {
@@ -28,9 +28,6 @@ body {
 }
 #autocomplete-popout > section > .scroller-wrap > .scroller {
     border-top: 2px solid white;
-}
- .avatar-profile {
-    border: 4px solid white !important;
 }
 .option.search-query, .option-popout, #channel-topicm, #bd-customcss-attach-controls {
     border: none !important
