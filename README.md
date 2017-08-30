@@ -1,6 +1,6 @@
 # ClearDiscord
 
-![Preview](https://i.gyazo.com/93d9b1362c33e5642f9f91c7cab9c80a.jpg)
+![Preview](http://i.imgur.com/xXIoVLY.jpg)
 
 **^^^ This is how the theme looks ^^^**
 
@@ -28,3 +28,6 @@ If you don't want this feature you can delete the first section of the theme bet
 
 [**Version 1.2.2**](https://betterdiscord.net/ghdl?id=493)
 
+# OLD CLEARDISCORD
+
+![Preview](https://i.gyazo.com/93d9b1362c33e5642f9f91c7cab9c80a.jpg)
