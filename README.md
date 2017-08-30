@@ -9,7 +9,7 @@
 
 ##Download ClearDiscord##
 P.S. If you want you can replace the background image but it needs to be a https connection for it to work.
-You can open the file with notepad and change the image link in the body tag.
+You can open the file with any text editor and change the image link in the body tag.
 
 [**Version 2.0.0**](https://betterdiscord.net/ghdl?id=69)
 
@@ -31,3 +31,5 @@ If you don't want this feature you can delete the first section of the theme bet
 # OLD CLEARDISCORD
 
 ![Preview](https://i.gyazo.com/93d9b1362c33e5642f9f91c7cab9c80a.jpg)
+
+You can copy paste the old code but it will not be updated so Discord will probably break it at some point. You are free to try to make it work or you can use the version that is being updated with a new and fresh look.
