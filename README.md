@@ -11,9 +11,9 @@
 P.S. If you want you can replace the background image but it needs to be a https connection for it to work.
 You can open the file with notepad and change the image link in the body tag.
 
-[**Version 1.4.3**](https://betterdiscord.net/ghdl?id=69)
+[**Version 2.0.0**](https://betterdiscord.net/ghdl?id=69)
 
-# JustBlack
+# JustBlack - Broken ATM
 
 ![Preview](https://i.gyazo.com/c072e77683b7fd3fb866cfcf11e462cf.png)
 
