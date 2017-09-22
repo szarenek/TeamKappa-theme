@@ -13,7 +13,7 @@ You can open the file with any text editor and change the image link in the body
 
 [**Version 2.0.0**](https://betterdiscord.net/ghdl?id=69)
 
-# JustBlack - Broken ATM
+# JustBlack
 
 ![Preview](https://i.gyazo.com/c072e77683b7fd3fb866cfcf11e462cf.png)
 
@@ -21,12 +21,11 @@ You can open the file with any text editor and change the image link in the body
 
 **The theme was made for a friend, so I'll only update it if he wants something changed.**
 
-Now the guild list fades out. To see it you must hover your mouse over it.
-If you don't want this feature you can delete the first section of the theme between the comments /* ... */ -> /* end */
+The guild list and channels list fade out. To see them you must hover your mouse over it.
 
 ##Download JustBlack##
 
-[**Version 1.2.2**](https://betterdiscord.net/ghdl?id=493)
+[**Version 1.9.9**](https://betterdiscord.net/ghdl?id=493)
 
 # OLD CLEARDISCORD
 
