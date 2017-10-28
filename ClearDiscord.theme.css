@@ -1,4 +1,4 @@
-//META{"name":"ClearD2","description":"A nice and clean theme","author":"Dddsasul","version":"2.0.0"}*//
+//META{"name":"ClearD2","description":"A nice and clean theme","author":"Dddsasul","version":"2.0.1"}*//
 
 
 /* Make The Image Darker */
@@ -17,7 +17,7 @@
     background: none !important;
 }
 
-.layers {
+.layers, .appMount-14L89u {
     background: none !important;
 }
 
@@ -25,6 +25,8 @@
 body {
     background: url(https://i.imgur.com/uTVZzkC.jpg) !important;
     background-size: cover !important;
+    height: 100vh !important;
+    background-repeat: no-repeat !important;
 }
 
 .guilds-wrapper {
@@ -65,8 +67,8 @@ body {
 	background: none !important;
 }
 
-/* Top Bar, Bottom Bar, Messages, Member List */
-.content, .chat, .messages-wrapper, .scroller-fzNley {
+/* Top Bar, Bottom Bar, Messages, Member List, Form, Channels */
+.content, .chat, .messages-wrapper, .scroller-fzNley, form, .channels-3g2vYe {
     background: none !important;
 }
 
