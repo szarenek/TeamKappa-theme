@@ -11,7 +11,7 @@
 P.S. If you want you can replace the background image but it needs to be a https connection for it to work.
 You can open the file with any text editor and change the image link in the body tag.
 
-[**Version 2.0.0**](https://betterdiscord.net/ghdl?id=69)
+[**Version 2.0.1**](https://betterdiscord.net/ghdl?id=69)
 
 # JustBlack
 
@@ -25,7 +25,7 @@ The guild list and channels list fade out. To see them you must hover your mouse
 
 ##Download JustBlack##
 
-[**Version 1.9.9**](https://betterdiscord.net/ghdl?id=493)
+[**Version 1.9.9.1**](https://betterdiscord.net/ghdl?id=493)
 
 # OLD CLEARDISCORD
 
