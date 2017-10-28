@@ -9,7 +9,7 @@
     background: none !important;
 }
 /* Don't touch */
-.layers, .layer {
+.layers, .layer, .appMount-14L89u {
     background: none !important;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 /* Top Bar, Bottom Bar, Messages, Member List */
-.content, .chat, .messages-wrapper, .scroller-fzNley {
+.content, .chat, .messages-wrapper, .scroller-fzNley, form, .channels-3g2vYe {
     background: none !important;
 }
 
