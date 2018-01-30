@@ -1,4 +1,4 @@
-//META{"name":"Clear Discord","description":"A nice and clean theme","author":"Dddsasul","version":"2.0.1"}*//
+//META{"name":"Clear Discord","description":"A nice and clean theme with blue highlights","author":"Dddsasul","version":"2.0.2"}*//
 
 
 /* Make The Image Darker */
@@ -17,13 +17,14 @@
     background: none !important;
 }
 
-.layers, .appMount-14L89u {
+.layers, .appMount-14L89u, .layer-kosS71, .layers-20RVFW {
     background: none !important;
 }
 
 /* Background Image URL Must be HTTPS */
 body {
-    background: url(https://i.imgur.com/uTVZzkC.jpg) !important;
+    /*background: url(https://i.imgur.com/uTVZzkC.jpg) !important;*/
+    background: url(https://i.imgur.com/zucNxIt.jpg) !important;
     background-size: cover !important;
     height: 100vh !important;
     background-repeat: no-repeat !important;
@@ -118,7 +119,7 @@ body {
 }
 
 /* Text Input Enabled */
-.innerEnabled-gLHeOL {
+.innerEnabled-gLHeOL, .innerEnabledNoAttach-36PpAk {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(91, 187, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
 }
 /* Text Input Disabled */
@@ -267,28 +268,28 @@ body {
 }
 
 /* Some Popout Menu */
-.popout-menu {
+.menu-3BZuDT {
     background-color: rgb(41, 137, 216) !important;
 }
-.popout-menu-item {
+.item-rK1j5B {
     color: white !important;
     transition: 0.4s !important;
 }
-.popout-menu-item:hover {
+.item-rK1j5B:hover {
     background: rgba(0, 0, 0, 0.4) !important;
 }
-.popout-menu-item.invite {
+.item-rK1j5B.invite-YM1l0n {
     color: rgb(91, 187, 255) !important;
 }
-.popout-menu-item.leave {
+.item-rK1j5B.leave-2bjeRM {
     color: rgb(255, 97, 31) !important;
 }
-.popout-menu-icon {
+.icon-3ICDZz {
     background-color: white !important;
     border-radius: 5px !important;
     border: 3px solid white !important;
 }
-.popout-menu-separator {
+.separator-1hpa3S {
     display: none !important;
 }
 /* Ends Here */
@@ -296,6 +297,23 @@ body {
 /* Member List Hover */
 .channel-members > .member:hover {
     background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(0, 0, 0, 0)) !important;
+}
+
+/* NSFW Section */
+.buttonBrandFilledDefault-2Rs6u5
+{
+    background-color: rgb(41, 137, 216) !important;
+}
+
+.buttonPrimaryOutlinedDefault--H0hhk
+{
+    border-color: rgb(41, 137, 216) !important;
+    color: rgb(41, 137, 216) !important;
+}
+
+.title-2mmhgH
+{
+    color: rgb(41, 137, 216) !important;
 }
 
 /* User Profile Modal */
